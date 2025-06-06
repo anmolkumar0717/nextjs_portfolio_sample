@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+body {
+  background-color: var(--bg-theme);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+
+*{
+    font-family: Outfit;
+}
+.font-Ovo{font-family: Ovo, 
+    sans-serif;
+}
+:root {
+  --color-light-hover: #fcf4ff;
+  --color-dark-hover: #2a004a;
+  --color-dark-theme: #11001F;
+}
+
+
+.shadow-black {
+  box-shadow: 4px 4px 0 #000;
+}
+
+.shadow-white {
+  box-shadow: 4px 4px 0 #fff;
+}
+.grid-cols-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+
+
